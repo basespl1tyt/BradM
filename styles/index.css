@@ -50,14 +50,32 @@ p {
     padding-right: 400px;
 }
 
-@media screen and (max-width: 2103px) {
+@media screen and (max-width: 1700px) {
     .half-left {
         padding-left: 300px;
+        margin-top: -50px;
     }
     .half-right {
         padding-right: 200px;
     }
+    .calendar {
+        width: 600px;
+    }
 }
+
+@media screen and (max-width: 1416px) {
+    .half-left {
+        padding-left: 200px;
+        margin-top: -50px;
+    }
+    .half-right {
+        padding-right: 100px;
+    }
+    .calendar {
+        width: 400px;
+    }
+}
+
 @media screen and (max-width: 1440px) {
     .half-left {
         padding-left: 200px;
