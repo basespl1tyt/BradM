@@ -1,0 +1,52 @@
+.topimg {
+    width: 300px;
+}
+
+.bottimg {
+    width: 300px;
+}
+
+@media screen and (max-width: 320px) {
+
+    .topimg {
+        width: 250px!important;
+    }
+    .bottimg {
+        width: 200px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .bottimg {
+        width: 200px!important;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+    .topimg {
+        width: 300px;
+    }
+
+    .bottimg {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .topimg {
+        width: 200px;
+    }
+
+    .bottimg {
+        width: 200px;
+    }
+
+}

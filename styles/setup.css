@@ -1,0 +1,40 @@
+.pictures {
+    height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-wrapper {
+        display: block;
+    }
+    .left-half, .right-half {
+        margin: 0px;
+    }
+    .grid-wrapper-equal-thirds {
+        display: block;
+    }
+    .left-third, .middle-third, .right-third  {
+        margin: 0 0 0 0 ;
+    }
+    .grid-wrapper-two-thirds {
+        display: block;
+    }
+    .left-two-thirds, .right-one-third    {
+        margin-bottom: 0;
+    }
+    .grid-wrapper-right-two-thirds {
+        display: block;
+    }
+    .left-one-third , .right-two-thirds {
+        margin-bottom: 0;
+    }
+    .grid-wrapper-equal-fourths {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .pictures {
+        height: 150px;
+
+    }
+}

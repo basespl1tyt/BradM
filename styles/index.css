@@ -1,0 +1,84 @@
+header {
+    background-color: #294977;
+}
+.content {
+    width: calc(1000vw -40);
+    height: 950px;
+    padding: 1em;
+}
+header {
+    grid-area: header;
+    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.25));
+
+}
+
+.twitch_video {
+	height: 500px;
+	width: 820.20582px;
+}
+/* Font Changing */
+
+.desc h3 {
+    margin-top: -50px;
+    font-weight: 100;
+    color: #a9b3bd;
+}
+.content p {
+    width: 500px;
+    margin-left: calc(50% - 250px);
+    line-height: 1.4em;
+}
+.sameline {
+    display: flex;
+    justify-content: space-beteen;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 375px) {
+    
+    .twitch_video {
+        height: 125px;
+        width: 205.051455px;
+    }
+
+    .content p {
+        width: 200px;
+        margin-left: calc(50% - 100px);
+    }
+
+    .content {
+        height: 850px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .twitch_video {
+        height: 250px;
+        width: 410.10291px;
+    }
+
+    .content {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .twitch_video {
+        height: 125px;
+        width: 205.051455px;
+    }
+
+    .content p {
+        width: 275px;
+        margin-left: calc(50% - 137.5px);
+    }
+
+    .content {
+        height: 750px;
+    }
+
+}
