@@ -1,15 +1,20 @@
+
+body {
+    background-color: #2c3e50;
+}
+
 header {
     background-color: #294977;
 }
 .content {
     width: calc(1000vw -40);
-    height: 950px;
+    height: 995px;
     padding: 1em;
+    
 }
 header {
     grid-area: header;
     filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.25));
-
 }
 
 .twitch_video {
@@ -23,15 +28,49 @@ header {
     font-weight: 100;
     color: #a9b3bd;
 }
-.content p {
+p {
     width: 500px;
-    margin-left: calc(50% - 250px);
     line-height: 1.4em;
 }
 .sameline {
     display: flex;
     justify-content: space-beteen;
 }
+
+.calendar {
+    width: 700px;
+    margin-top: -100px;
+}
+
+.half-left {
+    padding-left: 500px;
+}
+
+.half-right {
+    padding-right: 400px;
+}
+
+@media screen and (max-width: 2103px) {
+    .half-left {
+        padding-left: 300px;
+    }
+    .half-right {
+        padding-right: 200px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .half-left {
+        padding-left: 200px;
+    }
+    .half-right {
+        padding-right: 100px;
+    }
+    .calendar {
+        width: 600px;
+        margin-top: -75px;
+    }
+}
+
 
 /* Responsive */
 
@@ -81,4 +120,87 @@ header {
         height: 750px;
     }
 
+}
+
+
+
+.half-left {
+    text-align: left;
+}
+
+.about {
+    color: rgb(45, 129, 202);
+    font-size: 1em;
+}
+
+.aboutbg {
+    font-size: 3em;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-wrapper {
+        display: block;
+    }
+    .left-half, .right-half {
+        margin-top: 10px;
+    }
+    .grid-wrapper-equal-thirds {
+        display: block;
+    }
+    .left-third, .middle-third, .right-third  {
+        margin: 0 0 0 0 ;
+    }
+    .grid-wrapper-two-thirds {
+        display: block;
+    }
+    .left-two-thirds, .right-one-third    {
+        margin-bottom: 0;
+    }
+    .grid-wrapper-right-two-thirds {
+        display: block;
+    }
+    .left-one-third , .right-two-thirds {
+        margin-bottom: 0;
+    }
+    .grid-wrapper-equal-fourths {
+        display: block;
+    }
+    .half-left {
+        padding-left: calc(50% - 250px); 
+    }
+    .half-right {
+        padding: 0; 
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    p {
+        width: 300px;
+    }
+
+    .half-left {
+        margin-left: calc(50% - 150px);
+        margin-top: -250px;
+    }
+    .calendar {
+        width: 300px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    p {
+        width: 250px;
+    }
+
+    .half-left {
+        margin-left: calc(50% - 150px);
+        margin-top: -250px;
+    }
+    .calendar {
+        width: 250px;
+        margin-top: 5px;
+    }
 }
