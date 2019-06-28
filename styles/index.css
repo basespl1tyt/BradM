@@ -43,12 +43,26 @@ p {
 }
 
 .half-left {
-    padding-left: 500px;
+    padding-left: 411px;
 }
 
 .half-right {
     padding-right: 400px;
 }
+
+@media screen and (max-width: 1600px) {
+    .half-left {
+        padding-left: 100px;
+        margin-top: -50px;
+    }
+    .half-right {
+        padding-right: 200px;
+    }
+    .calendar {
+        width: 400px;
+    }
+}
+
 
 @media screen and (max-width: 1700px) {
     .half-left {
@@ -84,10 +98,24 @@ p {
         padding-right: 100px;
     }
     .calendar {
-        width: 600px;
+        width: 500px;
         margin-top: -75px;
     }
 }
+
+@media screen and (max-width: 1332px) {
+    .half-left {
+        padding-left: 50px;
+    }
+    .half-right {
+        padding-right: 50px;
+    }
+    .calendar {
+        width: 500px;
+        margin-top: -75px;
+    }
+}
+
 
 
 /* Responsive */
@@ -189,6 +217,9 @@ p {
     }
     .half-right {
         padding: 0; 
+    }
+    .calendar {
+        margin-top: 30px;
     }
 
 }
