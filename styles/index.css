@@ -1,195 +1,139 @@
-
 body {
     background-color: #2c3e50;
 }
 
-header {
-    background-color: #294977;
+.grid-wrapper {
+    margin-top: 1px;
+    height: 870px;
+    padding: 0 5em 0 5em;
 }
-.content {
-    width: calc(1000vw -40);
-    height: 995px;
-    padding: 1em;
-    
-}
-header {
-    grid-area: header;
-    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.25));
+
+.grid-wrapper-equal-thirds {
+    margin-bottom: 70px;
 }
 
 .twitch_video {
 	height: 500px;
-	width: 820.20582px;
+    width: 820.20582px;
+    margin-top: 150px;
 }
-/* Font Changing */
 
-.desc h3 {
-    margin-top: -50px;
-    font-weight: 100;
-    color: #a9b3bd;
+.half-left {
+    text-align: left;
+    margin-top: 190px;
 }
+
+.about {
+    font-size: 1em;
+    color: rgb(45, 129, 202);
+}
+
+.aboutbg {
+    font-size: 4em;
+    width: 200px;
+    margin-top: -5px;
+}
+
 p {
-    width: 500px;
-    line-height: 1.4em;
+    margin-top: -5px;
+    color: rgb(216, 216, 216);
+    width: 550px;
+    margin-bottom: 35px;
+}
+
+.counting {
+    color: rgb(45, 129, 202);
+    font-size: 1.5em;
+    font-weight: 700;
 }
 .sameline {
     display: flex;
     justify-content: space-beteen;
 }
 
-.calendar {
-    width: 700px;
-    margin-top: -100px;
+.fas {
+    margin: 0 20px 0 180px;
 }
-
-.half-left {
-    padding-left: 411px;
-}
-
-.half-right {
-    padding-right: 400px;
-}
-
-@media screen and (max-width: 1600px) {
-    .half-left {
-        padding-left: 100px;
-        margin-top: -50px;
-    }
-    .half-right {
-        padding-right: 200px;
-    }
-    .calendar {
-        width: 400px;
-    }
-}
-
-
-@media screen and (max-width: 1700px) {
-    .half-left {
-        padding-left: 300px;
-        margin-top: -50px;
-    }
-    .half-right {
-        padding-right: 200px;
-    }
-    .calendar {
-        width: 600px;
-    }
-}
-
-@media screen and (max-width: 1416px) {
-    .half-left {
-        padding-left: 200px;
-        margin-top: -50px;
-    }
-    .half-right {
-        padding-right: 100px;
-    }
-    .calendar {
-        width: 400px;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    .half-left {
-        padding-left: 200px;
-    }
-    .half-right {
-        padding-right: 100px;
-    }
-    .calendar {
-        width: 500px;
-        margin-top: -75px;
-    }
-}
-
-@media screen and (max-width: 1332px) {
-    .half-left {
-        padding-left: 50px;
-    }
-    .half-right {
-        padding-right: 50px;
-    }
-    .calendar {
-        width: 500px;
-        margin-top: -75px;
-    }
-}
-
-
-
-/* Responsive */
 
 @media screen and (max-width: 375px) {
-    
+    .half-left {
+        padding: 0!important; 
+        text-align: center;
+    }
+    .about {
+        margin-top: -150px;
+    }
+    .aboutbg {
+        font-size: 2em!important;  
+        width: 209px;      
+    }
+    p {
+        width: 220px;
+        margin-left: calc(50% - 110px);
+    }
     .twitch_video {
-        height: 125px;
-        width: 205.051455px;
+        height: 125px!important;
+        width: 205px!important;
+        margin-top: 20px!important;
+        margin-left: calc(50% - 143.75px)!important;
     }
-
-    .content p {
-        width: 200px;
-        margin-left: calc(50% - 100px);
+    .fas {
+        margin: 40px 20px 0 110px;
     }
-
-    .content {
-        height: 850px;
+    .descip {
+        margin-top: 40px;
     }
-
-}
-
-@media screen and (max-width: 771px) {
-
-    .twitch_video {
-        height: 250px;
-        width: 410.10291px;
+    .grid-wrapper {
+        height: 630px!important;
+        padding: 0;
     }
-
-    .content {
-        height: 700px;
+    article {
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 425px) {
-
+    .half-left {
+        padding: 0!important; 
+        text-align: center;
+    }
+    .about {
+        margin-top: -150px;
+    }
+    .aboutbg {
+        font-size: 2em!important;  
+        width: 259px;   
+        margin-left: calc(50% - 129.5px);   
+    }
+    p {
+        width: 260px;
+        margin-left: calc(50% - 130px);
+    }
+    .half-right {
+        padding: 0;
+    }
     .twitch_video {
-        height: 125px;
-        width: 205.051455px;
+        height: 162.5px;
+        width: 307.5px;
+        margin-top: 20px;
     }
-
-    .content p {
-        width: 275px;
-        margin-left: calc(50% - 137.5px);
+    .fas {
+        margin: 40px 20px 0 110px;
     }
-
-    .content {
-        height: 750px;
+    .descip {
+        margin-top: 40px;
     }
-
+    .grid-wrapper {
+        height: 700px;
+    }
 }
 
-
-
-.half-left {
-    text-align: left;
-}
-
-.about {
-    color: rgb(45, 129, 202);
-    font-size: 1em;
-}
-
-.aboutbg {
-    font-size: 3em;
-    margin-top: -10px;
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .grid-wrapper {
         display: block;
     }
     .left-half, .right-half {
-        margin-top: 10px;
+        margin: 0px;
     }
     .grid-wrapper-equal-thirds {
         display: block;
@@ -212,44 +156,70 @@ p {
     .grid-wrapper-equal-fourths {
         display: block;
     }
+
     .half-left {
-        padding-left: calc(50% - 250px); 
+        padding: 0!important; 
+        text-align: center;
+    }
+    .aboutbg {
+        font-size: 2em!important;  
+        width: 259px!important;   
+        margin-left: calc(50% - 129.5px);   
+    }
+    p {
+        width: 640px!important;
+        margin-left: calc(50% - 320px);
     }
     .half-right {
-        padding: 0; 
+        padding: 0;
     }
-    .calendar {
-        margin-top: 30px;
+    .twitch_video {
+        height: 324px;
+        width: 615px;
+        margin-top: 20px;
     }
-
-}
-
-@media screen and (max-width: 425px) {
-    p {
-        width: 300px;
+    .fas {
+        margin: 40px 20px 0 290px!important;
     }
-
-    .half-left {
-        margin-left: calc(50% - 150px);
-        margin-top: -250px;
+    .descip {
+        margin-top: 40px;
     }
-    .calendar {
-        width: 300px;
-        margin-top: 5px;
+    .grid-wrapper {
+        height: 700px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
+    .grid-wrapper {
+        padding: 0;
+    }
     p {
-        width: 250px;
+        width: 370px;
     }
-
+    .twitch_video {
+        height: 300px;
+        width: 492px;
+        margin-top: 150px;
+    }
     .half-left {
-        margin-left: calc(50% - 150px);
-        margin-top: -250px;
+        margin-top: 70px;
     }
-    .calendar {
-        width: 250px;
-        margin-top: 5px;
+    .grid-wrapper {
+        height: 690px;
     }
+    .fas {
+        margin: 0 20px 0 80px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .twitch_video {
+        height: 300px;
+        width: 492px;
+        margin-top: 140px;
+    }
+    .fas {
+        margin: 0 20px 0 150px;
+    }
+    
 }
