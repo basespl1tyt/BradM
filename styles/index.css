@@ -55,78 +55,6 @@ p {
     margin: 0 20px 0 180px;
 }
 
-@media screen and (max-width: 375px) {
-    .half-left {
-        padding: 0!important; 
-        text-align: center;
-    }
-    .about {
-        margin-top: -150px;
-    }
-    .aboutbg {
-        font-size: 2em!important;  
-        width: 209px;      
-    }
-    p {
-        width: 220px;
-        margin-left: calc(50% - 110px);
-    }
-    .twitch_video {
-        height: 125px!important;
-        width: 205px!important;
-        margin-top: 20px!important;
-        margin-left: calc(50% - 143.75px)!important;
-    }
-    .fas {
-        margin: 40px 20px 0 110px;
-    }
-    .descip {
-        margin-top: 40px;
-    }
-    .grid-wrapper {
-        height: 630px!important;
-        padding: 0;
-    }
-    article {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .half-left {
-        padding: 0!important; 
-        text-align: center;
-    }
-    .about {
-        margin-top: -150px;
-    }
-    .aboutbg {
-        font-size: 2em!important;  
-        width: 259px;   
-        margin-left: calc(50% - 129.5px);   
-    }
-    p {
-        width: 260px;
-        margin-left: calc(50% - 130px);
-    }
-    .half-right {
-        padding: 0;
-    }
-    .twitch_video {
-        height: 162.5px;
-        width: 307.5px;
-        margin-top: 20px;
-    }
-    .fas {
-        margin: 40px 20px 0 110px;
-    }
-    .descip {
-        margin-top: 40px;
-    }
-    .grid-wrapper {
-        height: 700px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .grid-wrapper {
@@ -222,4 +150,82 @@ p {
         margin: 0 20px 0 150px;
     }
     
+}
+
+@media screen and (max-width: 375px) {
+    .half-left {
+        padding: 0!important; 
+        text-align: center;
+    }
+    .about {
+        margin-top: -150px!important;
+    }
+    .aboutbg {
+        font-size: 2em!important;  
+    }
+    p {
+        width: 220px!important;
+        margin-left: calc(50% - 110px)!important;
+    }
+    .twitch_video {
+        height: 125px!important;
+        width: 205px!important;
+        margin-top: 20px!important;
+    }
+    .fas {
+        margin: 40px 20px 0 110px!important;
+    }
+    .descip {
+        margin-top: 40px!important;
+    }
+    .grid-wrapper {
+        height: 630px!important;
+        padding: 0;
+        margin-top: 200px!important;
+    }
+    article {
+        padding: 0;
+    }
+    .grid-wrapper-equal-thirds {
+        margin: 0 0 2em 0!important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .half-left {
+        padding: 0!important; 
+        text-align: center;
+    }
+    .about {
+        margin-top: -150px!important;
+    }
+    .aboutbg {
+        font-size: 2em!important;  
+    }
+    p {
+        width: 220px!important;
+        margin-left: calc(50% - 110px)!important;
+    }
+    .twitch_video {
+        height: 125px!important;
+        width: 205px!important;
+        margin-top: 20px!important;
+    }
+    .fas {
+        margin: 40px 20px 0 130px!important;
+    }
+    .descip {
+        margin-top: 40px!important;
+    }
+    .grid-wrapper {
+        height: 630px!important;
+        padding: 0;
+        margin-top: 200px!important;
+    }
+    article {
+        padding: 0;
+    }
+    .grid-wrapper-equal-thirds {
+        margin: 0 0 2em 0!important;
+    }
 }
