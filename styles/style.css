@@ -170,7 +170,7 @@ nav {
     z-index: 1;
     width: 200px;
     position: absolute!important;
-    left: 75.9%;
+    left: 69.5%;
     top: 30px;
 }
 
@@ -224,7 +224,7 @@ nav {
     z-index: 1;
     width: 200px;
     position: absolute!important;
-    right: 52.8%;
+    right: 46.5%;
     top: 30px;
 }
 
@@ -264,29 +264,36 @@ nav {
     display: inline-block;
 }
 
-@media screen and (max-width: 824px) {
-    
+@media screen and (max-width: 554px) {
     .dropdown-content {
-        left: 35.9%;
+        left: 30.9%;
         top: 55px;
     }
     .dropdown-content2 {
-        right: 40.8%;
+        right: 26.3%;
     }
-
 }
 
-@media screen and (max-width: 464px) {
-    
+@media screen and (max-width: 375px) {
     .dropdown-content {
-        left: 37.9%;
+        left: 22.9%;
         top: 55px;
     }
     .dropdown-content2 {
-        right: 21.8%;
+        right: 17.3%;
     }
-
 }
+
+@media screen and (max-width: 375px) {
+    .dropdown-content {
+        left: 13.3%;
+        top: 55px;
+    }
+    .dropdown-content2 {
+        right: 17.9%;
+    }
+}
+
 
 
 
